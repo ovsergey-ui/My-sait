@@ -864,7 +864,7 @@ ul {
   background: #0a0e12;
 }
 
-.project-preview.p1 .project-preview-img {
+.project-preview .project-preview-img {
   position: absolute;
   inset: 0;
   z-index: 0;
@@ -884,16 +884,10 @@ ul {
   pointer-events: none;
 }
 
-.project-preview.p2 {
-  background: linear-gradient(152deg, #0c1018 0%, #142032 55%, #1a2c44 100%);
-}
-
-.project-preview.p3 {
-  background: linear-gradient(140deg, #0a1214 0%, #102824 50%, #143a32 100%);
-}
-
+.project-preview.p2,
+.project-preview.p3,
 .project-preview.p4 {
-  background: linear-gradient(155deg, #120f16 0%, #1c1628 45%, #1e2430 100%);
+  background: #0a0e12;
 }
 
 .project-card:hover .project-preview {
